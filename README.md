@@ -24,7 +24,7 @@ It simplifies credential testing across multiple network protocols, unifies comm
 * **Multi-Engine Execution:** Run Hydra, Medusa, or both tools sequentially in a single command.
 * **Automated Reporting:** Generates clean, timestamped audit logs containing raw commands, execution statuses, and sanitized outputs.
 * **Complex Form Support:** Native parsing for HTTP POST/GET forms (`http-post-form`, `http-get-form`) without CLI escaping issues.
-* **Global Access:** Built-in symbolic link setup for system-wide execution (`strobe` / `asrx`).
+* **Global Access:** Built-in symbolic link setup for system-wide execution (`strobe`).
 
 ---
 
