@@ -44,7 +44,7 @@ To run strobe (or asrx) as a system-wide command from any path in your terminal:
 
 1. Clone the Repository & Set Execution Permissions
 Bash
-git clone [[https://github.com/your-username/strobe.git](https://github.com/DavudQasimov/Strobe.git)
+git clone https://github.com/DavudQasimov/Strobe.git
 cd strobe
 chmod +x strobe.py
 2. Create a Global Symbolic Link
@@ -54,8 +54,6 @@ Bash
 # Register as 'strobe'
 sudo ln -s "$(pwd)/strobe.py" /usr/local/bin/strobe
 
-# Or register as 'asrx'
-sudo ln -s "$(pwd)/strobe.py" /usr/local/bin/asrx
 3. Verify Installation
 Open a new terminal shell in any random directory and run:
 
